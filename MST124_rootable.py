@@ -1,6 +1,6 @@
 '''
-ROOTABLE - This can be used to find the largest root that is a factor of the target.
-Set the target script will do the rest.
+Although simple, ROOTABLE can be used to find all roots that are a factor of the target.
+Set the target when prompted and the script will do the rest.
 
 Particularly handy when trying to factorise a disciminant quickly.
 '''
