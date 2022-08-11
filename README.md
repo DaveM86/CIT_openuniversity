@@ -6,7 +6,8 @@ These are not solutions to TMA questions, simply programs that have been created
 They are groups be Stage then Module and hopefully the titles will give you an idea of what the program does although I'll leave a brief outline of the program below.
 
 MST124_rootable
-content to come
+
+Particularly handy when trying to factorise a disciminant quickly.
 
 
 TM129_tsp_processingtime
