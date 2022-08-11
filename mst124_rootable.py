@@ -2,7 +2,7 @@
 ROOTABLE - This can be used to find the largest root that is a factor of the target.
 Set the target script will do the rest.
 
-Particularly hand when trying to factorise a disciminant quickly.
+Particularly handy when trying to factorise a disciminant quickly.
 '''
 import math
 
