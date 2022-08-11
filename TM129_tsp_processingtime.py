@@ -60,7 +60,6 @@ class tsp():
 
 
 def main():
-    # Update the line below with your given paramaters tsp(number_of_locations, routes_per_second_processed)
     user_num_locations = input('How many locations is the drone travelling to: ')
     user_routes_per_second_processed = input('How many routes are processed per second by the drone: ')
 
