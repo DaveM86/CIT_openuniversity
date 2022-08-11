@@ -10,11 +10,10 @@ def rootable(target, p):
         if target % y == 0:
             print(f'{y} is a root(able) factor of {target}: {x} root '+str(target/y))
 
-def run():
-	t = int(input('target: '))
-	p = math.ceil(t**0.5)
-	rootable(t,p)
+def main():
+    t = int(input('target: '))
+    p = math.ceil(t**0.5)
+    rootable(t,p)
 
 if __name__ == '__main__':
-	run()
-
+    main()
