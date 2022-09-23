@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
-
 def addMonths(inpDt, mnths):
   tmpMnth = inpDt.month - 1 + mnths
 
@@ -24,29 +23,21 @@ def addMonths(inpDt, mnths):
 
   return resDt
 
-
-
-
-
 p = 180000
 x = 601
 r = 1+((1.64/100)/12)
 n = 0
-
 
 balance = []
 dates = []
 house_value = [200000]
 value_owned = []
 
-
 while n < 385:
-
 	balance.append(p*(r**n)-(x*((1-(r**n))/(1-r))))
 	dates.append(addMonths(dt.datetime(2021,11,16,3,20,6), n))
 	house_value.append(house_value[-1] + house_value[-1]*((1.2/100)/12))
 	value_owned.append(house_value[-2] - balance[-1])
-
 	n += 1
 
 dic_oustanding = dict(zip(dates, balance))
